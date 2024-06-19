@@ -135,6 +135,8 @@ system! {
         reciprocal_length::ReciprocalLength,
         solid_angle::SolidAngle,
         specific_area::SpecificArea,
+        specific_capacitance::SpecificCapacitance,
+        specific_conductance::SpecificConductance,
         specific_heat_capacity::SpecificHeatCapacity,
         specific_power::SpecificPower,
         specific_radioactivity::SpecificRadioactivity,
