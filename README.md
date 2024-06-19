@@ -22,6 +22,15 @@ Units of measurement is a crate that does automatic type-safe zero-cost
 [measurement]: https://jcgm.bipm.org/vim/en/1.9.html
 [orbiter]: https://en.wikipedia.org/wiki/Mars_Climate_Orbiter
 
+## Fork info
+
+This fork differs from upstream (iliketurtles/uom) in a few ways:
+ - It removes the requirement for a space between value and unit, matching
+   common usage in NeuroML files.
+ - It adds several quantities and units:
+   - SpecificConductance (S_per_m2, S_per_cm2, mS_per_cm2)
+   - SpecificCapacitance (F_per_m2, uF_per_cm2)
+
 ## Usage
 `uom` requires `rustc` 1.65.0 or later. Add this to your `Cargo.toml`:
 
