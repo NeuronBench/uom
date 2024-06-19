@@ -16,8 +16,11 @@ quantity! {
         Z0>;    // luminous intensity
     units {
         @siemens_per_square_meter: prefix!(none); "S_per_m2", "siemens per square meter", "siemens per square meter";
-        @siemens_per_centimeter: 1.0E-4; "S_per_cm2", "siemens per square centimeter",
+        @siemens_per_square_centimeter: 1.0E-4; "S_per_cm2", "siemens per square centimeter",
             "siemens per centimeter";
+        @millisiemens_per_square_centimeter: 1.0E-1; "mS_per_cm2", "millisiemens per square centimeter",
+            "millisiemens per square centimeter";
+
     }
 }
 
