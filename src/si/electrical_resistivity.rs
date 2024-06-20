@@ -41,6 +41,8 @@ quantity! {
 
         @ohm_centimeter: prefix!(none) * prefix!(centi); "Ω · cm", "ohm centimeter",
             "ohm centimeters";
+        @kiloohm_centimeter: prefix!(kilo) * prefix!(centi); "kohm_cm", "kiloohm centimeter",
+            "kiloohm centimeters";
         @abohm_centimeter: 1.0_E-9 * prefix!(centi); "abΩ · cm", "abohm centimeter",
             "abohm centimeters";
         @statohm_centimeter: 8.987_552_917_115_481_E11 * prefix!(centi); "statΩ · cm",
