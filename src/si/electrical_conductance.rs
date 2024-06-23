@@ -29,7 +29,7 @@ quantity! {
         @decisiemens: prefix!(deci); "dS", "decisiemens", "decisiemens";
         @centisiemens: prefix!(centi); "cS", "centisiemens", "centisiemens";
         @millisiemens: prefix!(milli); "mS", "millisiemens", "millisiemens";
-        @microsiemens: prefix!(micro); "µS", "microsiemens", "microsiemens";
+        @microsiemens: prefix!(micro); "uS", "microsiemens", "microsiemens";
         @nanosiemens: prefix!(nano); "nS", "nanosiemens", "nanosiemens";
         @picosiemens: prefix!(pico); "pS", "picosiemens", "picosiemens";
         @femtosiemens: prefix!(femto); "fS", "femtosiemens", "femtosiemens";
