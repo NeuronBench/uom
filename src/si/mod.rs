@@ -62,7 +62,7 @@ system! {
         areal_number_rate::ArealNumberRate,
         available_energy::AvailableEnergy,
         capacitance::Capacitance,
-        capacitance_per_electric_potential::CapacitancePerElectricPotential,
+        conductance_per_electric_potential::ConductancePerElectricPotential,
         catalytic_activity::CatalyticActivity,
         catalytic_activity_concentration::CatalyticActivityConcentration,
         curvature::Curvature,
