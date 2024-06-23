@@ -14,6 +14,7 @@ quantity! {
         Z0>;    // luminous intensity
     units {
         @siemens_per_volt: prefix!(none); "S_per_V", "siemens per Volt", "siemens per Volt";
+        @nanosiemens_per_millivolt: prefix!(nano)/prefix!(milli); "nS_per_mV", "picosiemens per millivolt", "picosiemens per millivolt";
         @picosiemens_per_millivolt: prefix!(pico)/prefix!(milli); "pS_per_mV", "picosiemens per millivolt", "picosiemens per millivolt";
     }
 }
