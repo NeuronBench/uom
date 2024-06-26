@@ -20,6 +20,14 @@ quantity! {
             "ampere per square centimeter", "amperes per square centimeter";
         @ampere_per_square_millimeter: prefix!(none) / prefix!(milli) / prefix!(milli); "A/mm²",
             "ampere per square millimeter", "amperes per square millimeter";
+        @microampere_per_square_centimeter: prefix!(micro) / prefix!(centi) / prefix!(centi); "uA_per_cm2",
+            "microamperes per square centimeter", "microamperes per square centimeter";
+        @milliampere_per_square_centimeter: prefix!(milli) / prefix!(centi) / prefix!(centi); "mA_per_cm2",
+            "milliamperes per square centimeter", "milliamperes per square centimeter";
+        @nanoampere_per_square_centimeter: prefix!(nano) / prefix!(centi) / prefix!(centi); "nA_per_cm2",
+            "nanoamperes per square centimeter", "nanoamperes per square centimeter";
+        @picoampere_per_square_centimeter: prefix!(pico) / prefix!(centi) / prefix!(centi); "pA_per_cm2",
+            "picoamperes per square centimeter", "picoamperes per square centimeter";
     }
 }
 
