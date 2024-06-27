@@ -13,16 +13,16 @@ quantity! {
         P1,     // amount of substance
         Z0>;    // luminous intensity
     units {
-        @yottamole: prefix!(yotta); "Ymol", "yottamole", "yottamoles";
-        @zettamole: prefix!(zetta); "Zmol", "zettamole", "zettamoles";
-        @examole: prefix!(exa); "Emol", "examole", "examoles";
-        @petamole: prefix!(peta); "Pmol", "petamole", "petamoles";
-        @teramole: prefix!(tera); "Tmol", "teramole", "teramoles";
-        @gigamole: prefix!(giga); "Gmol", "gigamole", "gigamoles";
-        @megamole: prefix!(mega); "Mmol", "megamole", "megamoles";
-        @kilomole: prefix!(kilo); "kmol", "kilomole", "kilomoles";
-        @hectomole: prefix!(hecto); "hmol", "hectomole", "hectomoles";
-        @decamole: prefix!(deca); "damol", "decamole", "decamoles";
+        @yottamole: prefix!(yotta); "YM", "yottamole", "yottamoles";
+        @zettamole: prefix!(zetta); "ZM", "zettamole", "zettamoles";
+        @examole: prefix!(exa); "EM", "examole", "examoles";
+        @petamole: prefix!(peta); "PM", "petamole", "petamoles";
+        @teramole: prefix!(tera); "TM", "teramole", "teramoles";
+        @gigamole: prefix!(giga); "GM", "gigamole", "gigamoles";
+        @megamole: prefix!(mega); "MM", "megamole", "megamoles";
+        @kilomole: prefix!(kilo); "kM", "kilomole", "kilomoles";
+        @hectomole: prefix!(hecto); "hM", "hectomole", "hectomoles";
+        @decamole: prefix!(deca); "daM", "decamole", "decamoles";
         /// 1. The mole is the SI unit of amount of substance. One mole contains exactly
         ///    6.022 140 76 × 10²³ elementary entities. This number is the fixed numerical value of
         ///    the Avogadro constant, *N*<sub>A</sub>, when expressed in the unit mol⁻¹ and is
@@ -30,17 +30,17 @@ quantity! {
         /// 2. The amount of substance, symbol *n*, of a system is a measure of the number of
         ///    specified elementary entities. An elementary entity may be an atom, a molecule, an
         ///    ion, an electron, any other particle or specified group of particles.
-        @mole: prefix!(none); "mol", "mole", "moles";
-        @decimole: prefix!(deci); "dmol", "decimole", "decimoles";
-        @centimole: prefix!(centi); "cmol", "centimole", "centimoles";
-        @millimole: prefix!(milli); "mmol", "millimole", "millimoles";
-        @micromole: prefix!(micro); "µmol", "micromole", "micromoles";
-        @nanomole: prefix!(nano); "nmol", "nanomole", "nanomoles";
-        @picomole: prefix!(pico); "pmol", "picomole", "picomoles";
-        @femtomole: prefix!(femto); "fmol", "femtomole", "femtomoles";
-        @attomole: prefix!(atto); "amol", "attomole", "attomoles";
-        @zeptomole: prefix!(zepto); "zmol", "zeptomole", "zeptomoles";
-        @yoctomole: prefix!(yocto); "ymol", "yoctomole", "yoctomoles";
+        @mole: prefix!(none); "M", "mole", "moles";
+        @decimole: prefix!(deci); "M", "decimole", "decimoles";
+        @centimole: prefix!(centi); "cM", "centimole", "centimoles";
+        @millimole: prefix!(milli); "mM", "millimole", "millimoles";
+        @micromole: prefix!(micro); "uM", "micromole", "micromoles";
+        @nanomole: prefix!(nano); "nM", "nanomole", "nanomoles";
+        @picomole: prefix!(pico); "pM", "picomole", "picomoles";
+        @femtomole: prefix!(femto); "fM", "femtomole", "femtomoles";
+        @attomole: prefix!(atto); "aM", "attomole", "attomoles";
+        @zeptomole: prefix!(zepto); "zM", "zeptomole", "zeptomoles";
+        @yoctomole: prefix!(yocto); "yM", "yoctomole", "yoctomoles";
 
         /// One elementary entity may be an atom, a molecule, an ion, an electron, any other
         /// particle or specified group of particles.
